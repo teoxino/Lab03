@@ -8,8 +8,8 @@ class DepositoStrumenti:
         """Inizializza gli attributi e le strutture dati"""
         self.nome = nome
         self._responsabile = responsabile
-        self._strumenti = {}  # Dizionario {id_strumento: {'tipo': ..., 'marca': ..., 'anno': ..., 'valore': ...}}
-        self._prestiti = {}  # Dizionario {id_prestito: {'data': ..., 'id_strumento': ..., 'cognome_allievo': ...}}
+        self._strumenti = {}
+        self._prestiti = {}
         self._ultimo_id_strumento = 0
         self._ultimo_id_prestito = 0
 
