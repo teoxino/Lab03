@@ -5,7 +5,7 @@ from operator import itemgetter
 
 class DepositoStrumenti:
     def __init__(self, nome, responsabile):
-        """Inizializza gli attributi e le strutture dati"""
+        """Inizializza gli attributi e le  strutture dati """
         self.nome = nome
         self._responsabile = responsabile
         self._strumenti = {}

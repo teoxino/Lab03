@@ -26,7 +26,7 @@ def main():
         elif scelta == "2":
             while True:
                 try:
-                    file_path = input("Inserisci il path del file da caricare: ").strip()
+                    file_path = input("Inserisci  il path del file da caricare: ").strip()
                     deposito.carica_file_strumenti(file_path)
                     break
                 except Exception as e:
